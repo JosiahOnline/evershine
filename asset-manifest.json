@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/JosiahOnline/evershine.git/static/css/main.d1b05096.chunk.css",
+    "main.js": "/JosiahOnline/evershine.git/static/js/main.e1563105.chunk.js",
+    "main.js.map": "/JosiahOnline/evershine.git/static/js/main.e1563105.chunk.js.map",
+    "runtime-main.js": "/JosiahOnline/evershine.git/static/js/runtime-main.144e46f7.js",
+    "runtime-main.js.map": "/JosiahOnline/evershine.git/static/js/runtime-main.144e46f7.js.map",
+    "static/js/2.d942cd1e.chunk.js": "/JosiahOnline/evershine.git/static/js/2.d942cd1e.chunk.js",
+    "static/js/2.d942cd1e.chunk.js.map": "/JosiahOnline/evershine.git/static/js/2.d942cd1e.chunk.js.map",
+    "index.html": "/JosiahOnline/evershine.git/index.html",
+    "precache-manifest.31e3193e5e5cd4bc2a263821b91ea00e.js": "/JosiahOnline/evershine.git/precache-manifest.31e3193e5e5cd4bc2a263821b91ea00e.js",
+    "service-worker.js": "/JosiahOnline/evershine.git/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/JosiahOnline/evershine.git/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.d942cd1e.chunk.js.LICENSE.txt": "/JosiahOnline/evershine.git/static/js/2.d942cd1e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/JosiahOnline/evershine.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.144e46f7.js",
+    "static/js/2.d942cd1e.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.e1563105.chunk.js"
+  ]
+}
