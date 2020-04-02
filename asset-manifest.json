@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/JosiahOnline/evershine.git/static/css/main.d1b05096.chunk.css",
-    "main.js": "/JosiahOnline/evershine.git/static/js/main.e1563105.chunk.js",
-    "main.js.map": "/JosiahOnline/evershine.git/static/js/main.e1563105.chunk.js.map",
-    "runtime-main.js": "/JosiahOnline/evershine.git/static/js/runtime-main.144e46f7.js",
-    "runtime-main.js.map": "/JosiahOnline/evershine.git/static/js/runtime-main.144e46f7.js.map",
-    "static/js/2.d942cd1e.chunk.js": "/JosiahOnline/evershine.git/static/js/2.d942cd1e.chunk.js",
-    "static/js/2.d942cd1e.chunk.js.map": "/JosiahOnline/evershine.git/static/js/2.d942cd1e.chunk.js.map",
-    "index.html": "/JosiahOnline/evershine.git/index.html",
-    "precache-manifest.31e3193e5e5cd4bc2a263821b91ea00e.js": "/JosiahOnline/evershine.git/precache-manifest.31e3193e5e5cd4bc2a263821b91ea00e.js",
-    "service-worker.js": "/JosiahOnline/evershine.git/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/JosiahOnline/evershine.git/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.d942cd1e.chunk.js.LICENSE.txt": "/JosiahOnline/evershine.git/static/js/2.d942cd1e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/JosiahOnline/evershine.git/static/media/logo.5d5d9eef.svg"
+    "main.css": "/evershine/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/evershine/static/js/main.fad98055.chunk.js",
+    "main.js.map": "/evershine/static/js/main.fad98055.chunk.js.map",
+    "runtime-main.js": "/evershine/static/js/runtime-main.11a5d0a4.js",
+    "runtime-main.js.map": "/evershine/static/js/runtime-main.11a5d0a4.js.map",
+    "static/js/2.41971f3d.chunk.js": "/evershine/static/js/2.41971f3d.chunk.js",
+    "static/js/2.41971f3d.chunk.js.map": "/evershine/static/js/2.41971f3d.chunk.js.map",
+    "index.html": "/evershine/index.html",
+    "precache-manifest.a3c5a3d52d30cb2c54a89cd5afb5e71c.js": "/evershine/precache-manifest.a3c5a3d52d30cb2c54a89cd5afb5e71c.js",
+    "service-worker.js": "/evershine/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/evershine/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.41971f3d.chunk.js.LICENSE.txt": "/evershine/static/js/2.41971f3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.144e46f7.js",
-    "static/js/2.d942cd1e.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.e1563105.chunk.js"
+    "static/js/runtime-main.11a5d0a4.js",
+    "static/js/2.41971f3d.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.fad98055.chunk.js"
   ]
 }
