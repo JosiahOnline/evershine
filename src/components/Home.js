@@ -5,10 +5,12 @@ const Home = () => {
     return (
         <Carousel>
             <Carousel.Item>
+                <div className="triangleBg sam1">
+                </div>
                 <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1585388615/News%20Images/C_YNoGathering-ENG.jpg"
-                    alt="First slide"/>
+                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013502/supreme/pic4.jpg"
+                    alt="Our Products"/>
                 <Carousel.Caption>
                     <h3>Our Products</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -17,10 +19,12 @@ const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
+                <div className="triangleBg sam2">
+                </div>
                 <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1585388928/News%20Images/ServicesNoGathering-ENG.jpg"
-                    alt="Third slide"/>
+                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013502/supreme/pic1.jpg"
+                    alt="Our Services"/>
 
                 <Carousel.Caption>
                     <h3>Our Services</h3>
@@ -30,10 +34,12 @@ const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
+                <div className="triangleBg sam1">
+                </div>
                 <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1582368219/News%20Images/Elle-ENG.jpg"
-                    alt="Third slide"/>
+                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013506/supreme/pic5.jpg"
+                    alt="Our Clients"/>
 
                 <Carousel.Caption>
                     <h3>Our Clients</h3>

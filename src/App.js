@@ -6,11 +6,12 @@ import Contact from './components/Contact';
 import NoMatch from './components/NoMatch';
 import Services from './components/Services';
 import NavigationBar from './components/NavigationBar'
+import FirstFive from './components/FirstFive';
 
 function App() {
   return (
     <React.Fragment>
-    <NavigationBar />
+      <NavigationBar />
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -20,6 +21,7 @@ function App() {
             <Route component={NoMatch}/>
           </Switch>
         </Router>
+      <FirstFive />
     </React.Fragment>
   );
 }

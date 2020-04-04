@@ -44,7 +44,7 @@ code {
     bottom: -45vh;
 }
 
-/* Button  */
+/* Button Browse  */
 .btn-primary {
     background-color: #830808;
     border-color: #830808;
@@ -57,4 +57,43 @@ code {
 .btn-primary:hover {
   background-color: #fc1414;
   border-color: #fc1414;
+}
+
+/* triangle white bg */
+.triangleBg {
+  z-index: 1000;
+  position: absolute;
+  height: 10px;
+  width: 0;
+  border-bottom: 60px solid transparent;
+}
+.sam1 {
+  top: 45%;
+  border-left: 600px solid #fdfcf7;
+}
+.sam2 {
+  top: 49%;
+  border-right: 600px solid #fdfcf7;
+}
+
+
+/* carousel indicators */
+
+.carousel-indicators li {
+  background-color: white;
+  opacity: 1;
+  height: 7px;
+}
+.carousel-indicators .active {
+  background-color: #47AEA0;
+}
+
+.firstFive {
+  padding : 15% 5%;
+}
+
+.ShowMoreProducts {
+  background-color: #47AEA0;
+  border-color: #47AEA0;
+  font-size: 1.3em;
 }
