@@ -92,8 +92,38 @@ code {
   padding : 15% 5%;
 }
 
-.ShowMoreProducts {
+.moreProducts, .getStarted {
   background-color: #47AEA0;
   border-color: #47AEA0;
   font-size: 1.3em;
+}
+
+.moreProducts {
+  width: 100%;
+}
+
+.getStarted {
+  width: 70%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25%;
+}
+
+.centerImage p {
+  width: 70%;
+  text-align: center;
+}
+.roundImage {
+  width: 200px;
+  height: 200px;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Card, CardDeck, Button} from 'react-bootstrap';
+import {Card, CardDeck, Container, Button} from 'react-bootstrap';
 
 const FirstFive = () => {
     return (
-      <div className="firstFive">
+      <Container className="firstFive">
         <h1>Our Products</h1>
         <CardDeck>
             <Card>
@@ -42,8 +42,8 @@ const FirstFive = () => {
                 </Card.Body>
             </Card>
         </CardDeck>
-        <Button className="ShowMoreProducts">Click for More Prodcts</Button>
-      </div>
+        <Button className="moreProducts">More Products</Button>
+      </Container>
     );
 }
 
