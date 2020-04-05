@@ -68,11 +68,11 @@ code {
   border-bottom: 60px solid transparent;
 }
 .sam1 {
-  top: 45%;
+  top: 47%;
   border-left: 600px solid #fdfcf7;
 }
 .sam2 {
-  top: 49%;
+  top: 52%;
   border-right: 600px solid #fdfcf7;
 }
 
@@ -86,10 +86,6 @@ code {
 }
 .carousel-indicators .active {
   background-color: #47AEA0;
-}
-
-.firstFive {
-  padding : 15% 5%;
 }
 
 .moreProducts, .getStarted {
@@ -110,12 +106,17 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 9% 5% 20%;
 }
 
 .centerImage {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 15%;
+}
+
+.extraPadding {
   padding-bottom: 25%;
 }
 
@@ -126,4 +127,39 @@ code {
 .roundImage {
   width: 200px;
   height: 200px;
+}
+
+.imageXs {
+  width: 75px;
+  height: 75px;
+}
+
+.extraBorder {
+  border-left: 1px solid #212529;
+  border-right: 1px solid #212529;
+}
+
+.youTube {
+  width: 300px;
+  height: auto;
+  padding: 10% 0;
+}
+
+.centerText {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.setFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  font-size: 0.8em;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  background-color: #830808;
+  padding: 10px;
 }

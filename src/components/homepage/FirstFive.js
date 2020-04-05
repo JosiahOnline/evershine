@@ -3,7 +3,7 @@ import {Card, CardDeck, Container, Button} from 'react-bootstrap';
 
 const FirstFive = () => {
     return (
-      <Container className="firstFive">
+      <Container>
         <h1>Our Products</h1>
         <CardDeck>
             <Card>

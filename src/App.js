@@ -6,8 +6,6 @@ import Contact from './components/Contact';
 import NoMatch from './components/NoMatch';
 import Services from './components/Services';
 import NavigationBar from './components/NavigationBar'
-import FirstFive from './components/homeage/FirstFive';
-import OurServices from './components/homeage/OurServices';
 
 function App() {
   return (
@@ -22,8 +20,6 @@ function App() {
             <Route component={NoMatch}/>
           </Switch>
         </Router>
-      <FirstFive />
-      <OurServices />
     </React.Fragment>
   );
 }
