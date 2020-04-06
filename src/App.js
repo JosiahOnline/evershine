@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Products from './components/Products';
 import Contact from './components/Contact';
@@ -10,8 +10,8 @@ import NavigationBar from './components/NavigationBar'
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar />
-        <BrowserRouter basename="{process.env.PUBLIC_URL}/evershine">
+        <Router>
+          <NavigationBar />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/products" component={Products} />
@@ -19,7 +19,7 @@ function App() {
             <Route path="/contact" component={Contact} />
             <Route component={NoMatch}/>
           </Switch>
-        </BrowserRouter>
+        </Router>
     </React.Fragment>
   );
 }
