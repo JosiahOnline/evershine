@@ -11,7 +11,7 @@ function App() {
   return (
     <React.Fragment>
       <NavigationBar />
-        <BrowserRouter basename="{process.env.PUBLIC_URL}">
+        <BrowserRouter basename="{process.env.PUBLIC_URL}/evershine">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/products" component={Products} />
