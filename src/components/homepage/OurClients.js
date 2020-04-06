@@ -3,7 +3,7 @@ import { Row, Container, Image, Col, Button } from 'react-bootstrap';
 
 const OurClients = () => {
   return ( 
-    <Container>
+    <Container className="setPadding">
       <h3>Our Clients</h3>
       <p>Whom we are proud to serve</p>
       <Row>

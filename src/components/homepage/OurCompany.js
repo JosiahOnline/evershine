@@ -3,7 +3,7 @@ import {Row, Container, Col, Button, ResponsiveEmbed} from 'react-bootstrap';
 
 const OurCompany = () => {
     return (
-        <Container>
+        <Container className="setPadding">
             <h3>Our Company</h3>
             <p>100% Satisfaction Guaranteed</p>
             <Row>
