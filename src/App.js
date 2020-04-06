@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Products from './components/Products';
 import Contact from './components/Contact';
@@ -11,15 +11,15 @@ function App() {
   return (
     <React.Fragment>
       <NavigationBar />
-        <Router>
+        <BrowserRouter basename="{process.env.PUBLIC_URL}">
           <Switch>
-            <Route Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/products" component={Products} />
             <Route path="/services" component={Services} />
             <Route path="/contact" component={Contact} />
             <Route component={NoMatch}/>
           </Switch>
-        </Router>
+        </BrowserRouter>
     </React.Fragment>
   );
 }
