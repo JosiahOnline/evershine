@@ -13,7 +13,7 @@ function App() {
       <NavigationBar />
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
             <Route path="/products" component={Products} />
             <Route path="/services" component={Services} />
             <Route path="/contact" component={Contact} />
