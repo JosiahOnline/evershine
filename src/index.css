@@ -1,7 +1,7 @@
 html {
-  min-height: 100%;
-  overflow-y: scroll;
-}   
+    min-height: 100%;
+    overflow-y: scroll;
+}
 
 body {
     height: 100vh;
@@ -16,20 +16,37 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
 .setPadding {
-  padding: 10% 10% 20%;
+    padding: 10% 10% 20%;
 }
 
 /* navbar */
+.navbar-brand img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.navbar-toggler {
+    background-color: rgb(131, 8, 8);
+    padding: 1px 6px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #f5c5c7;
+}
+/* override bootstrap navbar colors 
+override background image gradient w/ flat color */
+/*.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) !important; 
+} */
 .colorNav {
-    background-color: #830808;
+    background-color: rgb(131, 8, 8);
 }
 .colorNav .navbar-brand {
     color: white;
@@ -48,17 +65,57 @@ code {
     align-items: flex-end;
 }
 
+.navContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 300px;
+}
+.navContainer a {
+    color: white;
+    padding-right: 5px;
+}
+
+/* Recruitment  */
+.recruitment {
+    color: #453a3c;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5em 0;
+}
+
+.recruitment a {
+    text-decoration-line: underline;
+    text-decoration-color: #453a3c;
+    color: #453a3c;
+    font-weight: 700;
+}
+
+/* .applyBtn {
+  font-size: 0.7em;
+  color: white;
+  background-color: #453a3c;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0.5em 1em;
+} */
+
 /* Carousel */
 .carousel-item img {
-    padding-top: 45vh;
+    padding-top: 36vh;
 }
 .carousel-caption {
     top: 1em;
     color: black;
+    padding-top: 0;
 }
 .carousel-control-next,
 .carousel-control-prev {
-    bottom: -45vh;
+    bottom: -36vh;
 }
 
 /* Button Browse  */
@@ -66,154 +123,155 @@ code {
     background-color: #830808;
     border-color: #830808;
 }
-
-.btn-primary:not(:disabled):not(.disabled).active, 
-.btn-primary:not(:disabled):not(.disabled):active, 
-.show>.btn-primary.dropdown-toggle, 
-.btn-primary.focus, .btn-primary:focus,
-.btn-primary:hover {
-  background-color: #fc1414;
-  border-color: #fc1414;
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #47AEA0;
+    border-color: #47AEA0;
 }
 
 /* triangle white bg */
 .triangleBg {
-  z-index: 1000;
-  position: absolute;
-  height: 10px;
-  width: 0;
-  border-bottom: 60px solid transparent;
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 0;
+    border-bottom: 60px solid transparent;
 }
 .sam1 {
-  top: 47%;
-  border-left: 600px solid #fdfcf7;
+    top: 41%;
+    border-left: 600px solid #fdfcf7;
 }
 .sam2 {
-  top: 49.5%;
-  border-right: 600px solid #fdfcf7;
-  height: 70px;
+    top: 43.5%;
+    border-right: 600px solid #fdfcf7;
+    height: 70px;
 }
-
 
 /* carousel indicators */
 
 .carousel-indicators li {
-  background-color: white;
-  opacity: 1;
-  height: 7px;
+    background-color: white;
+    opacity: 1;
+    height: 7px;
 }
 .carousel-indicators .active {
-  background-color: #47AEA0;
+    background-color: #47AEA0;
 }
 
-.moreProducts, .getStarted {
-  background-color: #47AEA0;
-  border-color: #47AEA0;
-  font-size: 1.3em;
+.getStarted,
+.moreProducts {
+    background-color: #47AEA0;
+    border-color: #47AEA0;
+    font-size: 1.3em;
 }
 
 .moreProducts {
-  width: 100%;
+    width: 100%;
 }
 
 .getStarted {
-  width: 70%;
+    width: 70%;
 }
 
 .centerImage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15%;
 }
 
 .extraPadding {
-  padding-bottom: 25%;
+    padding-bottom: 25%;
 }
 
 .centerImage p {
-  width: 70%;
-  text-align: center;
+    width: 70%;
+    text-align: center;
 }
 .roundImage {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 .imageXs {
-  width: 75px;
-  height: 75px;
+    width: 75px;
+    height: 75px;
 }
 
 .extraBorder {
-  border-left: 1px solid #212529;
-  border-right: 1px solid #212529;
+    border-left: 1px solid #212529;
+    border-right: 1px solid #212529;
 }
 
 .youTube {
-  width: 300px;
-  height: auto;
-  padding: 10% 0;
+    width: 100%;
+    height: auto;
+    padding: 10% 0;
 }
 
 .centerText {
-  text-align: center;
-  padding-bottom: 10%;
+    text-align: center;
+    padding-bottom: 10%;
 }
 
 .locationMap {
-  text-align: center;
-  padding-bottom: 10%;
+    text-align: center;
+    padding-bottom: 10%;
 }
 .myMap.col {
-  border: 1px solid transparent;
-  border-radius: 0.3em;
-  box-shadow: 4px 6px 10px #aaaaaa;
-  width: 100%;
-  height: 300px;
-  padding: 0;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    box-shadow: 4px 6px 10px #aaaaaa;
+    width: 100%;
+    height: 300px;
+    padding: 0;
 }
 
 .myMap Iframe {
-  border-radius: 0.3em;
-  border: 1px solid transparent;
+    border-radius: 0.3em;
+    border: 1px solid transparent;
 }
 
 .setFlex {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .setRow {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .setCol {
-  display: flex;
-  flex-direction: row;
-  padding-right: 0;
-  padding-left: 5px;
-  padding-bottom: 2em;
-  align-items: center;
-  text-align: left;
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+    padding-left: 5px;
+    padding-bottom: 2em;
+    align-items: center;
+    text-align: left;
 }
 
 .setCol p {
-  font-size: 0.8em;
-  margin-bottom: 0;
+    font-size: 0.8em;
+    margin-bottom: 0;
 }
 
 .setThumnail {
-  height: 2em;
-  padding-right: 10px;
+    height: 2em;
+    padding-right: 10px;
 }
 
 .footer {
-  font-size: 0.8em;
-  font-weight: 100;
-  text-align: center;
-  color: white;
-  background-color: #830808;
-  padding: 10px;
-  width: 100%;
+    font-size: 0.8em;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    background-color: #830808;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
 }

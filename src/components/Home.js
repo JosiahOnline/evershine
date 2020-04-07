@@ -6,18 +6,18 @@ import OurServices from './homepage/OurServices';
 import OurClients from './homepage/OurClients';
 import OurCompany from './homepage/OurCompany';
 import Location from './homepage/Location';
-import Footer from './homepage/Footer';
+import Recruitment from './homepage/Recruitment';
 
 const Home = () => {
     return (
       <Container>
-      <CarouselSlide />
-      <FirstFive />
-      <OurServices />
-      <OurClients />
-      <OurCompany />
-      <Location />
-      <Footer />
+        <Recruitment />
+        <CarouselSlide />
+        <FirstFive />
+        <OurServices />
+        <OurClients />
+        <OurCompany />
+        <Location />
       </Container>
     );
 }
