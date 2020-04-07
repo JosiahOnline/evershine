@@ -5,7 +5,7 @@ import supreme from '../pictures/Supreme Logo.png'
 
 const NavigationBar = () => {
   return (
-      <Navbar fixed="top" className="colorNav" expand="lg">
+      <Navbar fixed="top" className="colorNav" expand="lg" collapseOnSelect >
         <Navbar.Brand href="/">
           <img
           src={supreme}
@@ -15,13 +15,13 @@ const NavigationBar = () => {
           alt="React Bootstrap logo"
         />SUPREME EVERSHINE
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="navContainer">
-            <Link to="/">Home</Link>
-            <Link to="/products">Products</Link>
-            <Link to="services">Services</Link>
-            <Link to="contact">Contact</Link>
+          <Nav className="mr-auto navContainer">
+            <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
+            <Nav.Link eventKey="2" as={Link} to="/products">Products</Nav.Link>
+            <Nav.Link eventKey="3" as={Link} to="services">Services</Nav.Link>
+            <Nav.Link eventKey="4" as={Link} to="contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

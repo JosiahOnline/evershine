@@ -1,15 +1,19 @@
 import React from 'react';
 import {Carousel, Button} from 'react-bootstrap';
 
+import pic1 from '../../pictures/carousel/pic1.jpg'
+import pic2 from '../../pictures/carousel/pic2.jpg'
+import pic3 from '../../pictures/carousel/pic3.jpg'
+
 const CarouselSlide = () => {
   return ( 
     <Carousel>
             <Carousel.Item>
-                <div className="triangleBg sam1">
-                </div>
+                {/* <div className="triangleBg sam1">
+                </div> */}
                 <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013502/supreme/pic4.jpg"
+                    src={pic1}
                     alt="Our Products"/>
                 <Carousel.Caption>
                     <h3>Our Products</h3>
@@ -19,11 +23,11 @@ const CarouselSlide = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <div className="triangleBg sam2">
-                </div>
+                {/* <div className="triangleBg sam2">
+                </div> */}
                 <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013502/supreme/pic1.jpg"
+                    src={pic2}
                     alt="Our Services"/>
 
                 <Carousel.Caption>
@@ -34,11 +38,11 @@ const CarouselSlide = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <div className="triangleBg sam1">
-                </div>
+                {/* <div className="triangleBg sam1">
+                </div> */}
                 <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013506/supreme/pic5.jpg"
+                    src={pic3}
                     alt="Our Clients"/>
 
                 <Carousel.Caption>

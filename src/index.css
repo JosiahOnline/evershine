@@ -134,7 +134,7 @@ override background image gradient w/ flat color */
 }
 
 /* triangle white bg */
-.triangleBg {
+/* .triangleBg {
     z-index: 1000;
     position: absolute;
     height: 10px;
@@ -149,7 +149,7 @@ override background image gradient w/ flat color */
     top: 43.5%;
     border-right: 600px solid #fdfcf7;
     height: 70px;
-}
+} */
 
 /* carousel indicators */
 
