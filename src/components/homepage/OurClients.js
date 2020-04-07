@@ -4,8 +4,8 @@ import { Row, Container, Image, Col, Button } from 'react-bootstrap';
 const OurClients = () => {
   return ( 
     <Container className="setPadding">
-      <h3>Our Clients</h3>
-      <p>Whom we are proud to serve</p>
+      <h3 className="h3Title">Our Clients</h3>
+      <p className="pDescription">Whom we are proud to serve</p>
       <Row>
         <Col className="centerImage">
           <Image className="roundImage, imageXs" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg" roundedCircle />
@@ -39,7 +39,8 @@ const OurClients = () => {
           <Image className="roundImage imageXs" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg" roundedCircle />
         </Col>
       </Row>
-      <Button className="getStarted">ENQUIRY</Button>
+      <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Button className="actionBtn">ENQUIRY</Button>
     </Container>
    );
 }

@@ -4,12 +4,12 @@ import {Row, Container, Col, Button, ResponsiveEmbed} from 'react-bootstrap';
 const OurCompany = () => {
     return (
         <Container className="setPadding">
-            <h3>Our Company</h3>
-            <p>100% Satisfaction Guaranteed</p>
+            <h3 className="h3Title">Our Company</h3>
+            <p className="pDescription">100% Satisfaction Guaranteed</p>
             <Row>
-                <Col>Reliable</Col>
-                <Col className="extraBorder">Efficiecy</Col>
-                <Col>Innovaive</Col>
+                <Col className="pDescription">Reliable</Col>
+                <Col className="pDescription extraBorder">Efficiecy</Col>
+                <Col className="pDescription">Innovaive</Col>
             </Row>
             <Row className="youTube">
                 <div
@@ -22,10 +22,9 @@ const OurCompany = () => {
                     </ResponsiveEmbed>
                 </div>
             </Row>
-            <Row>
-              <Col className="centerText">Together we help, we grow and we prosper!<br></br>Are you ready to work with us?</Col>
-            </Row>
-            <Button className="getStarted">LET'S GO</Button>
+              <p className="pDescription">Together we help, we grow and we prosper! Are you ready to work with us?</p>
+            
+            <Button className="actionBtn">LET'S GO</Button>
         </Container>
     );
 }

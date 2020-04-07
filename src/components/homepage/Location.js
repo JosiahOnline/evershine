@@ -9,7 +9,7 @@ const Location = () => {
         <Container className="setPadding locationMap">
             <Row className="setFlex">
                 <Col>
-                    <h3>Location Map</h3>
+                    <h3 className="h3Title">Location Map</h3>
                 </Col>
                 <Col className="myMap">
                   <Iframe
@@ -24,18 +24,18 @@ const Location = () => {
             </Row>
             <Row>
                 <Col>
-                    <h3>Contact</h3>
+                    <h3 className="h3Title">Contact Us</h3>
                 </Col>
             </Row>
             <Row className="setRow">
                 <Col className="setCol"><Image className="setThumnail" src={location}/>
-                    <p>90000, Jalan Lintas Sibuga, lintas indsutrial park, 90000 Sandakan, Sabah</p>
+                    <p className="contactP">90000, Jalan Lintas Sibuga, lintas indsutrial park, 90000 Sandakan, Sabah</p>
                 </Col>
                 <Col className="setCol"><Image className="setThumnail" src={phone}/>
-                    <p>Phone: +6013-883-0602<br></br>Fax: +6089-xxx-xxx</p>
+                    <p className="contactP">Phone: +6013-883-0602<br></br>Fax: +6089-xxx-xxx</p>
                 </Col>
                 <Col className="setCol"><Image className="setThumnail" src={mail}/>
-                    <p>sales-supreme-evershine@gmail.com</p>
+                    <p className="contactP">sales-supreme-evershine@gmail.com</p>
                 </Col>
             </Row>
         </Container>

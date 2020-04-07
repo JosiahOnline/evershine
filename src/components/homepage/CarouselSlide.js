@@ -16,10 +16,10 @@ const CarouselSlide = () => {
                     src={pic1}
                     alt="Our Products"/>
                 <Carousel.Caption>
-                    <h3>Our Products</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <Button variant="primary">Browse</Button>
+                    <h3 className="h3Title">Our Products</h3>
+                    <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                    <Button className="normalBtn" variant="primary">Browse</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -31,10 +31,10 @@ const CarouselSlide = () => {
                     alt="Our Services"/>
 
                 <Carousel.Caption>
-                    <h3>Our Services</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <Button variant="primary">Browse</Button>
+                    <h3 className="h3Title">Our Services</h3>
+                    <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                    <Button className="normalBtn" variant="primary">Browse</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -46,10 +46,10 @@ const CarouselSlide = () => {
                     alt="Our Clients"/>
 
                 <Carousel.Caption>
-                    <h3>Our Clients</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <Button variant="primary">Browse</Button>
+                    <h3 className="h3Title">Our Clients</h3>
+                    <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                    <Button className="normalBtn" variant="primary">Browse</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

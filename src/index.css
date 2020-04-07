@@ -16,6 +16,33 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.h3Title {
+  font-size: 2em;
+}
+
+.pDescription {
+  font-size: 1.2em;
+}
+
+.normalBtn {
+  font-size: 1em;
+}
+
+.cardTitle {
+  font-size: 1.5em;
+}
+
+.h4Title {
+  font-size: 1.5em;
+}
+
+.contactP {
+  font-size: 1em;
+}
+
+.h3Title, .pDescription, .normalBtn, .h4Title {
+  text-align: center;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -38,6 +65,9 @@ code {
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
     color: #f5c5c7;
+}
+.colorNav button:focus {
+  outline-color: rgba(0,0,0,.1);
 }
 /* override bootstrap navbar colors 
 override background image gradient w/ flat color */
@@ -162,36 +192,24 @@ override background image gradient w/ flat color */
     background-color: #47AEA0;
 }
 
-.getStarted,
-.moreProducts {
+.actionBtn {
     background-color: #47AEA0;
     border-color: #47AEA0;
-    font-size: 1.3em;
-}
-
-.moreProducts {
+    font-size: 1em;
     width: 100%;
-}
-
-.getStarted {
-    width: 70%;
 }
 
 .centerImage {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 15%;
+    padding-bottom: 8%;
 }
 
 .extraPadding {
-    padding-bottom: 25%;
+    padding-bottom: 20%;
 }
 
-.centerImage p {
-    width: 70%;
-    text-align: center;
-}
 .roundImage {
     width: 200px;
     height: 200px;
@@ -214,13 +232,11 @@ override background image gradient w/ flat color */
 }
 
 .centerText {
-    text-align: center;
     padding-bottom: 10%;
 }
 
 .locationMap {
-    text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .myMap.col {
     border: 1px solid transparent;
@@ -229,6 +245,8 @@ override background image gradient w/ flat color */
     width: 100%;
     height: 300px;
     padding: 0;
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
 
 .myMap Iframe {
@@ -245,6 +263,19 @@ override background image gradient w/ flat color */
     flex-direction: column;
 }
 
+.cardVideo {
+    padding: 1.25rem 0 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 10%;
+}
+
+.cardVideo .youTube {
+  padding: 0.5rem 0 0;
+}
+
 .setCol {
     display: flex;
     flex-direction: row;
@@ -256,7 +287,6 @@ override background image gradient w/ flat color */
 }
 
 .setCol p {
-    font-size: 0.8em;
     margin-bottom: 0;
 }
 

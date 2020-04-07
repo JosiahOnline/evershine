@@ -1,30 +1,61 @@
 import React from 'react';
-import { Row, Container, Image, Col, Button } from 'react-bootstrap';
+import { Row, Container, Col, Button, ResponsiveEmbed } from 'react-bootstrap';
 
 const OurServices = () => {
   return ( 
     <Container className="setPadding">
-      <Row>
-        <Col className="centerImage extraPadding">
-          <h3>Services</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <h6>Welding</h6>
-          <Image className="roundImage" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg" roundedCircle />
+      <Row className="setRow">
+      <Col className="cardVideo">
+          <h3 className="h3Title">Our Services</h3>
+          <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4 className="h4Title">Welding Process</h4>
+          <div className="youTube">
+              <div
+                  style={{
+                  width: '100%',
+                  height: 'auto'
+              }}>
+                  <ResponsiveEmbed aspectRatio="16by9">
+                      <embed type="image/svg+xml" src="https://www.youtube.com/embed/SKfXCCDdrqM"/>
+                  </ResponsiveEmbed>
+              </div>
+          </div>
         </Col>
-        <Col className="centerImage extraPadding">
-          <h3>We take care!</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <h6>Welding</h6>
-          <Image className="roundImage" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg" roundedCircle />
+        <Col className="cardVideo">
+          <h3 className="h3Title">We Take Care!</h3>
+          <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4 className="h4Title">Enginering</h4>
+          <div className="youTube">
+              <div
+                  style={{
+                  width: '100%',
+                  height: 'auto'
+              }}>
+                  <ResponsiveEmbed aspectRatio="16by9">
+                      <embed type="image/svg+xml" src="https://www.youtube.com/embed/SKfXCCDdrqM"/>
+                  </ResponsiveEmbed>
+              </div>
+          </div>
         </Col>
-        <Col className="centerImage extraPadding">
-          <h3>Save Time & Efficiency</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <h6>Welding</h6>
-          <Image className="roundImage" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg" roundedCircle />
+        <Col className="cardVideo">
+          <h3 className="h3Title">Save Time & Efficiency!</h3>
+          <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4 className="h4Title">On-Site Engineering</h4>
+          <div className="youTube">
+              <div
+                  style={{
+                  width: '100%',
+                  height: 'auto'
+              }}>
+                  <ResponsiveEmbed aspectRatio="16by9">
+                      <embed type="image/svg+xml" src="https://www.youtube.com/embed/SKfXCCDdrqM"/>
+                  </ResponsiveEmbed>
+              </div>
+          </div>
         </Col>
       </Row>
-      <Button className="getStarted">Get Started</Button>
+      <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Button className="actionBtn">Get Started</Button>
     </Container>
    );
 }
