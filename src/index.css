@@ -41,6 +41,7 @@ code {
 .contactP {
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 0;
 }
 
 .h3Title, .pDescription, .normalBtn, .h4Title {
@@ -68,6 +69,15 @@ code {
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
     color: #f5c5c7;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+  border: 1px solid white;
+  padding: 0.8em 1.6em;
+  border-radius: 10px;
 }
 .colorNav button:focus {
   outline-color: rgba(0,0,0,.1);
