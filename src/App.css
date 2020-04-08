@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Roboto&display=swap');
+/* use any of these fonts 
+font-family: 'Playfair Display', serif - title;
+font-family: 'Raleway', sans-serif - description;
+font-family: 'Roboto', sans-serif - button; */

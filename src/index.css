@@ -7,9 +7,7 @@ body {
     height: 100vh;
     margin: 15% 0;
     background-color: #fdfcf7;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Playfair Display', serif;
 }
 
 code {
@@ -22,10 +20,14 @@ code {
 
 .pDescription {
   font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
 }
+
+
 
 .normalBtn {
   font-size: 1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cardTitle {
@@ -38,6 +40,7 @@ code {
 
 .contactP {
   font-size: 1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .h3Title, .pDescription, .normalBtn, .h4Title {
@@ -50,7 +53,7 @@ code {
     padding: 0;
 }
 .setPadding {
-    padding: 10% 10% 20%;
+    padding: 10% 7% 20%;
 }
 
 /* navbar */
@@ -115,13 +118,15 @@ override background image gradient w/ flat color */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0.5em 0;
+    padding: 5px 0;
 }
 
 .recruitment a {
     text-decoration-line: underline;
     text-decoration-color: #453a3c;
     color: #453a3c;
+    font-size: 0.9em;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
@@ -193,9 +198,10 @@ override background image gradient w/ flat color */
 }
 
 .actionBtn {
+    font-family: 'Roboto', sans-serif;
     background-color: #47AEA0;
     border-color: #47AEA0;
-    font-size: 1em;
+    font-size: 1.3em;
     width: 100%;
 }
 
@@ -206,6 +212,26 @@ override background image gradient w/ flat color */
     padding-bottom: 8%;
 }
 
+.ourServices {
+  padding: 10% 10% 15%;
+}
+
+.ourServices p {
+  padding: 0.5em;
+  margin: 0;
+}
+
+.ourCompany p{
+  padding: 0.5em;
+  margin: 0;
+}
+
+.ourCompany .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 0.6em;
+}
 .extraPadding {
     padding-bottom: 20%;
 }
@@ -237,6 +263,8 @@ override background image gradient w/ flat color */
 
 .locationMap {
     padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .myMap.col {
     border: 1px solid transparent;
@@ -263,7 +291,11 @@ override background image gradient w/ flat color */
     flex-direction: column;
 }
 
-.cardVideo {
+.clientsProfile {
+  justify-content: space-around;
+}
+
+.cardLayout {
     padding: 1.25rem 0 0;
     background-color: #fff;
     background-clip: border-box;
@@ -272,8 +304,16 @@ override background image gradient w/ flat color */
     margin-bottom: 10%;
 }
 
-.cardVideo .youTube {
+.cardLayout .youTube {
   padding: 0.5rem 0 0;
+}
+.ourCompany .cardLayout {
+  padding: 0;
+  margin-top: 1.25rem;
+}
+
+.ourCompany .youTube {
+  padding: 0;
 }
 
 .setCol {
