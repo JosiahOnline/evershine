@@ -12,14 +12,14 @@ const Location = () => {
                     <h3 className="h3Title">Location Map</h3>
                 </Col>
                 <Col className="myMap">
-                  <Iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.0004402953036!2d118.04529621476725!3d5.855558695757395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3238dbb5b8fff7d1%3A0x280fc07af7809cb9!2sVision%20Primary%20School%20Sandakan!5e0!3m2!1sen!2smy!4v1586177290736!5m2!1sen!2smy"
-                      width="100%"
-                      height="100%"
-                      frameborder="0"
-                      allowfullscreen=""
-                      aria-hidden="false"
-                      tabindex="0"></Iframe>
+                <Iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.0835021476414!2d118.04161311525061!3d5.843855232310648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3238db2e1d008105%3A0x92de2ae0687f7c!2sSUPREME%20EVERSHINE%20SDN.BHD!5e0!3m2!1sen!2smy!4v1586429534069!5m2!1sen!2smy"
+                        width="100%"
+                        height="100%"
+                        frameborder="0"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"></Iframe>
                 </Col>
             </Row>
             <Row>

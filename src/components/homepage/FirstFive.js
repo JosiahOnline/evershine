@@ -9,37 +9,37 @@ const FirstFive = () => {
                         tempor.</p>
         <CardDeck>
             <Card>
-                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic2.jpg"/>
+                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586434802/supreme/products/SEW_Eurodrive.png"/>
                 <Card.Body>
-                    <Card.Title className="cardTitle">Shaft</Card.Title>
-                    <Button className="normalBtn">Details</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic2.jpg"/>
-                <Card.Body>
-                    <Card.Title className="cardTitle">Worm Screw</Card.Title>
-                    <Button className="normalBtn">Details</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic2.jpg"/>
-                <Card.Body>
-                    <Card.Title className="cardTitle">Press Cage</Card.Title>
-                    <Button className="normalBtn">Details</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic2.jpg"/>
-                <Card.Body>
-                    <Card.Title className="cardTitle">Card title</Card.Title>
+                    <Card.Title className="cardTitle">SEW Eurodrive Gear Reducer / Helical Gear</Card.Title>
                     <Button>Details</Button>
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic2.jpg"/>
+                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586434801/supreme/products/ROTO.png"/>
                 <Card.Body>
-                    <Card.Title className="cardTitle">Card title</Card.Title>
+                    <Card.Title className="cardTitle">ROTO Progressive Cavity Pumps</Card.Title>
+                    <Button className="normalBtn">Details</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586434802/supreme/products/Motology.png"/>
+                <Card.Body>
+                    <Card.Title className="cardTitle">Motology / Elektrim Electric Motors</Card.Title>
+                    <Button className="normalBtn">Details</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586434837/supreme/products/refractoryCastables.png"/>
+                <Card.Body>
+                    <Card.Title className="cardTitle">Refractory Castables</Card.Title>
+                    <Button className="normalBtn">Details</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586431237/supreme/products/mainShaft.png"/>
+                <Card.Body>
+                    <Card.Title className="cardTitle">Main Shaft (In-House Production)</Card.Title>
                     <Button className="normalBtn">Details</Button>
                 </Card.Body>
             </Card>

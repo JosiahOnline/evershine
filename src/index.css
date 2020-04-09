@@ -226,6 +226,7 @@ override background image gradient w/ flat color */
   padding: 10% 10% 15%;
 }
 
+
 .ourServices p {
   padding: 0.5em;
   margin: 0;
@@ -354,4 +355,8 @@ override background image gradient w/ flat color */
     padding: 10px;
     width: 100%;
     margin-left: 0;
+}
+
+.removePadding {
+  padding: 0;
 }
