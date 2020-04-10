@@ -3,7 +3,7 @@ import {Card, CardDeck, Container, Button} from 'react-bootstrap';
 
 const FirstFive = () => {
     return (
-      <Container className="setPadding">
+      <Container id="browseProducts" className="setPadding">
         <h3 className="h3Title">Our Products</h3>
         <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
@@ -39,7 +39,7 @@ const FirstFive = () => {
             <Card>
                 <Card.Img variant="top" src="https://res.cloudinary.com/trippleninja/image/upload/v1586431237/supreme/products/mainShaft.png"/>
                 <Card.Body>
-                    <Card.Title className="cardTitle">Main Shaft (In-House Production)</Card.Title>
+                    <Card.Title className="cardTitle">Main Shaft<br></br>(In-House Production)</Card.Title>
                     <Button className="normalBtn">Details</Button>
                 </Card.Body>
             </Card>

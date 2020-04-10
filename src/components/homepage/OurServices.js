@@ -3,7 +3,7 @@ import {Row, Container, Col, Button, ResponsiveEmbed} from 'react-bootstrap';
 
 const OurServices = () => {
     return (
-        <Container className="setPadding, ourServices">
+        <Container id="browseServices"className="setPadding, ourServices">
             <h3 className="h3Title">Our Services</h3>
             <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <Row className="setRow">
@@ -42,7 +42,7 @@ const OurServices = () => {
             <div className="cardLayout removePadding">
                 <p className="pDescription">
                     “If I had nine hours to chop down a tree, I’d spend the first six sharpening my
-                    axe.” <br></br>– Abraham Lincoln</p>
+                    axe.” <br></br>- Abraham Lincoln</p>
             </div>
             <Button className="actionBtn">Get Started</Button>
         </Container>

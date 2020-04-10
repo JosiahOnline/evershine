@@ -1,6 +1,7 @@
 html {
     min-height: 100%;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -22,8 +23,6 @@ code {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
 }
-
-
 
 .normalBtn {
   font-size: 1em;
@@ -51,10 +50,12 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
 }
 .setPadding {
-    padding: 10% 7% 20%;
+    padding: 20% 7% 10%;
 }
 
 /* navbar */
@@ -219,11 +220,11 @@ override background image gradient w/ flat color */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 8%;
+    padding: 0 0.5em 8%;
 }
 
 .ourServices {
-  padding: 10% 10% 15%;
+  padding: 20% 10% 10%;
 }
 
 
@@ -282,7 +283,7 @@ override background image gradient w/ flat color */
     border-radius: 0.3em;
     box-shadow: 4px 6px 10px #aaaaaa;
     width: 100%;
-    height: 300px;
+    height: 350px;
     padding: 0;
     margin-top: 5%;
     margin-bottom: 15%;
@@ -327,6 +328,15 @@ override background image gradient w/ flat color */
   padding: 0;
 }
 
+
+.ourClients p {
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.ourClients .cardLayout {
+  padding-top: 0;
+}
 .setCol {
     display: flex;
     flex-direction: row;

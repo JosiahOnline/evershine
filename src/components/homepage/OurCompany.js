@@ -10,7 +10,7 @@ const OurCompany = () => {
               <Row>
                 <Col className="pDescription">Reliable</Col>
                 <Col className="pDescription extraBorder">Efficiecy</Col>
-                <Col className="pDescription">Innovaive</Col>
+                <Col className="pDescription">Innovative</Col>
               </Row>
               <div className="cardLayout">
               <div className="youTube">
@@ -24,9 +24,9 @@ const OurCompany = () => {
                     </ResponsiveEmbed>
                 </div>
               </div>
-              <p className="pDescription">Together we help, we grow and we prosper! Are you ready to work with us?</p>
+              <p className="pDescription">Together we help, we grow and we prosper! Let's work together and make it happen!</p>
             </div>
-            <Button className="actionBtn">LET'S GO</Button>
+            <Button className="actionBtn">ENQUIRY</Button>
         </Container>
     );
 }
