@@ -158,6 +158,8 @@ override background image gradient w/ flat color */
     top: 1em;
     color: black;
     padding-top: 0;
+    right: 10%;
+    left: 10%;
 }
 .carousel-control-next,
 .carousel-control-prev {
@@ -224,10 +226,12 @@ override background image gradient w/ flat color */
 }
 
 .ourServices {
-  padding: 20% 10% 10%;
+  padding: 20% 7% 10%;
 }
 
-
+.ourServices .setRow{
+  margin: 0;
+}
 .ourServices p {
   padding: 0.5em;
   margin: 0;
@@ -303,9 +307,9 @@ override background image gradient w/ flat color */
     flex-direction: column;
 }
 
-.clientsProfile {
+/* .clientsProfile {
   justify-content: space-around;
-}
+} */
 
 .cardLayout {
     padding: 1.25rem 0 0;
@@ -331,7 +335,6 @@ override background image gradient w/ flat color */
 
 .ourClients p {
   padding: 0.5em;
-  margin-bottom: 0;
 }
 
 .ourClients .cardLayout {

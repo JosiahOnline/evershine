@@ -5,57 +5,59 @@ const OurClients = () => {
     return (
         <Container id="browseClients" className="setPadding ourClients">
             <h3 className="h3Title">Our Clients</h3>
-            <p className="pDescription">Whom we are proud to serve</p>
+            <p className="pDescription">Whom we are proud to serve:</p>
             <Row className="clientsProfile">
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage, imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+           
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+           
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-                <Col className="centerImage">
+                <Col className="centerImage" xs={4}>
                     <Image
                         className="roundImage imageXs"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
@@ -63,7 +65,8 @@ const OurClients = () => {
                 </Col>
             </Row>
             <div className="cardLayout">
-                <p className="pDescription">“Thank you for trusting us and being an important part of our story.” - Alex Fong</p>
+                <p className="pDescription">“A BIG THANK YOU for trusting us and being an important
+                    part of our journey.” - Alex Fong</p>
             </div>
 
             <Button className="actionBtn">ENQUIRY</Button>

@@ -5,7 +5,7 @@ const OurServices = () => {
     return (
         <Container id="browseServices"className="setPadding, ourServices">
             <h3 className="h3Title">Our Services</h3>
-            <p className="pDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="pDescription">Quality is never an accident. It is always the result of intelligent effort.</p>
             <Row className="setRow">
                 <Col className="cardLayout">
                     <h4 className="h4Title">In-House Services</h4>
