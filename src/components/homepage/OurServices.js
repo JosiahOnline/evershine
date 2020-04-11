@@ -5,7 +5,10 @@ const OurServices = () => {
     return (
         <Container id="browseServices"className="setPadding, ourServices">
             <h3 className="h3Title">Our Services</h3>
-            <p className="pDescription">Quality is never an accident. It is always the result of intelligent effort.</p>
+            <div className="cardText">
+                <p className="pDescription">
+                Quality is never an accident. It is always the result of intelligent effort.</p>
+            </div>
             <Row className="setRow">
                 <Col className="cardLayout">
                     <h4 className="h4Title">In-House Services</h4>
@@ -25,7 +28,6 @@ const OurServices = () => {
                 <Col className="cardLayout">
                     <h4 className="h4Title">On-Site Engineering</h4>
                     <p className="pDescription">Quality reasurrance without compromise your cost and time.</p>
-
                     <div className="youTube">
                         <div
                             style={{
@@ -39,7 +41,7 @@ const OurServices = () => {
                     </div>
                 </Col>
             </Row>
-            <div className="cardLayout removePadding">
+            <div className="cardText">
                 <p className="pDescription">
                     “If I had nine hours to chop down a tree, I’d spend the first six sharpening my
                     axe.” <br></br>- Abraham Lincoln</p>

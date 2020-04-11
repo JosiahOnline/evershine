@@ -10,8 +10,6 @@ const CarouselSlide = () => {
     return (
         <Carousel>
             <Carousel.Item>
-                {/* <div className="triangleBg sam1">
-                </div> */}
                 <img className="d-block w-100" src={pic1} alt="Our Products"/>
                 <Carousel.Caption>
                     <h3 className="h3Title">Our Products</h3>
@@ -21,8 +19,6 @@ const CarouselSlide = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                {/* <div className="triangleBg sam2">
-                </div> */}
                 <img className="d-block w-100" src={pic2} alt="Our Services"/>
 
                 <Carousel.Caption>
@@ -33,8 +29,6 @@ const CarouselSlide = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                {/* <div className="triangleBg sam1">
-                </div> */}
                 <img className="d-block w-100" src={pic3} alt="Our Clients"/>
 
                 <Carousel.Caption>

@@ -3,46 +3,59 @@ html {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-
 body {
     height: 100vh;
     margin: 15% 0;
     background-color: #fdfcf7;
     font-family: 'Playfair Display', serif;
 }
-
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
 .h3Title {
   font-size: 2em;
 }
-
 .pDescription {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
 }
-
 .normalBtn {
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
 }
 
+/* Button Browse  */
+.btn-primary {
+  background-color: #830808;
+  border-color: #830808;
+}
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #47AEA0;
+  border-color: #47AEA0;
+}
+.actionBtn {
+    font-family: 'Roboto', sans-serif;
+    background-color: #47AEA0;
+    border-color: #47AEA0;
+    font-size: 1.3em;
+    width: 100%;
+}
 .cardTitle {
   font-size: 1.5em;
 }
-
 .h4Title {
   font-size: 1.5em;
 }
-
 .contactP {
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 0;
 }
-
 .h3Title, .pDescription, .normalBtn, .h4Title {
   text-align: center;
 }
@@ -56,6 +69,41 @@ code {
 }
 .setPadding {
     padding: 20% 7% 10%;
+}
+.setRow {
+  display: flex;
+  flex-direction: column;
+}
+.youTube {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0 0;
+}
+.cardLayout {
+  padding: 1.25rem 0 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-bottom: 10%;
+}
+
+.cardText {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.cardText .pDescription {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0;
+}
+.extraBorder {
+  border-left: 1px solid #212529;
+  border-right: 1px solid #212529;
 }
 
 /* navbar */
@@ -141,15 +189,6 @@ override background image gradient w/ flat color */
     font-weight: 700;
 }
 
-/* .applyBtn {
-  font-size: 0.7em;
-  color: white;
-  background-color: #453a3c;
-  border-radius: 5px;
-  border-style: none;
-  padding: 0.5em 1em;
-} */
-
 /* Carousel */
 .carousel-item img {
     padding-top: 36vh;
@@ -166,41 +205,6 @@ override background image gradient w/ flat color */
     bottom: -36vh;
 }
 
-/* Button Browse  */
-.btn-primary {
-    background-color: #830808;
-    border-color: #830808;
-}
-.btn-primary.focus,
-.btn-primary:focus,
-.btn-primary:hover,
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
-    background-color: #47AEA0;
-    border-color: #47AEA0;
-}
-
-/* triangle white bg */
-/* .triangleBg {
-    z-index: 1000;
-    position: absolute;
-    height: 10px;
-    width: 0;
-    border-bottom: 60px solid transparent;
-}
-.sam1 {
-    top: 41%;
-    border-left: 600px solid #fdfcf7;
-}
-.sam2 {
-    top: 43.5%;
-    border-right: 600px solid #fdfcf7;
-    height: 70px;
-} */
-
-/* carousel indicators */
-
 .carousel-indicators li {
     background-color: white;
     opacity: 1;
@@ -210,21 +214,7 @@ override background image gradient w/ flat color */
     background-color: #47AEA0;
 }
 
-.actionBtn {
-    font-family: 'Roboto', sans-serif;
-    background-color: #47AEA0;
-    border-color: #47AEA0;
-    font-size: 1.3em;
-    width: 100%;
-}
-
-.centerImage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 0.5em 8%;
-}
-
+/* Our Services */
 .ourServices {
   padding: 20% 7% 10%;
 }
@@ -237,6 +227,28 @@ override background image gradient w/ flat color */
   margin: 0;
 }
 
+/* Our Clients  */
+.ourClients p {
+  padding: 0.5em;
+}
+
+.ourClients .cardLayout {
+  padding-top: 0;
+}
+
+.centerImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5em 8%;
+}
+
+.imageSize {
+  width: 75px;
+  height: 75px;
+}
+
+/* Our Company */
 .ourCompany p{
   padding: 0.5em;
   margin: 0;
@@ -248,41 +260,23 @@ override background image gradient w/ flat color */
   justify-content: space-around;
   padding: 0 0.6em;
 }
-.extraPadding {
-    padding-bottom: 20%;
+
+.ourCompany .cardLayout {
+  padding-top: 0;
+  margin-top: 1.25rem;
 }
 
-.roundImage {
-    width: 200px;
-    height: 200px;
+.ourCompany .youTube {
+  padding: 0;
 }
 
-.imageXs {
-    width: 75px;
-    height: 75px;
-}
-
-.extraBorder {
-    border-left: 1px solid #212529;
-    border-right: 1px solid #212529;
-}
-
-.youTube {
-    width: 100%;
-    height: auto;
-    padding: 10% 0;
-}
-
-.centerText {
-    padding-bottom: 10%;
-}
-
+/* Location Map  */
 .locationMap {
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
 }
-.myMap.col {
+.myMap {
     border: 1px solid transparent;
     border-radius: 0.3em;
     box-shadow: 4px 6px 10px #aaaaaa;
@@ -298,49 +292,7 @@ override background image gradient w/ flat color */
     border: 1px solid transparent;
 }
 
-.setFlex {
-    display: flex;
-    flex-direction: column;
-}
-.setRow {
-    display: flex;
-    flex-direction: column;
-}
-
-/* .clientsProfile {
-  justify-content: space-around;
-} */
-
-.cardLayout {
-    padding: 1.25rem 0 0;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    margin-bottom: 10%;
-}
-
-.cardLayout .youTube {
-  padding: 0.5rem 0 0;
-}
-.ourCompany .cardLayout {
-  padding: 0;
-  margin-top: 1.25rem;
-}
-
-.ourCompany .youTube {
-  padding: 0;
-}
-
-
-.ourClients p {
-  padding: 0.5em;
-}
-
-.ourClients .cardLayout {
-  padding-top: 0;
-}
-.setCol {
+.address {
     display: flex;
     flex-direction: row;
     padding-right: 0;
@@ -350,15 +302,16 @@ override background image gradient w/ flat color */
     text-align: left;
 }
 
-.setCol p {
+.address p {
     margin-bottom: 0;
 }
 
-.setThumnail {
+.setIcon {
     height: 2em;
     padding-right: 10px;
 }
 
+/* Footer  */
 .footer {
     font-size: 0.8em;
     font-weight: 100;
@@ -370,6 +323,3 @@ override background image gradient w/ flat color */
     margin-left: 0;
 }
 
-.removePadding {
-  padding: 0;
-}

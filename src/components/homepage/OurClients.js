@@ -9,62 +9,62 @@ const OurClients = () => {
             <Row className="clientsProfile">
                 <Col className="centerImage" xs={4}>
                     <Image
-                        className="roundImage, imageXs"
+                        className="imageSize"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
                 <Col className="centerImage" xs={4}>
                     <Image
-                        className="roundImage imageXs"
+                        className="imageSize"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
                 <Col className="centerImage" xs={4}>
                     <Image
-                        className="roundImage imageXs"
-                        src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
-                        roundedCircle/>
-                </Col>
-           
-                <Col className="centerImage" xs={4}>
-                    <Image
-                        className="roundImage imageXs"
-                        src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
-                        roundedCircle/>
-                </Col>
-                <Col className="centerImage" xs={4}>
-                    <Image
-                        className="roundImage imageXs"
-                        src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
-                        roundedCircle/>
-                </Col>
-                <Col className="centerImage" xs={4}>
-                    <Image
-                        className="roundImage imageXs"
+                        className="imageSize"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
            
                 <Col className="centerImage" xs={4}>
                     <Image
-                        className="roundImage imageXs"
+                        className="imageSize"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
                 <Col className="centerImage" xs={4}>
                     <Image
-                        className="roundImage imageXs"
+                        className="imageSize"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
                 <Col className="centerImage" xs={4}>
                     <Image
-                        className="roundImage imageXs"
+                        className="imageSize"
+                        src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
+                        roundedCircle/>
+                </Col>
+           
+                <Col className="centerImage" xs={4}>
+                    <Image
+                        className="imageSize"
+                        src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
+                        roundedCircle/>
+                </Col>
+                <Col className="centerImage" xs={4}>
+                    <Image
+                        className="imageSize"
+                        src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
+                        roundedCircle/>
+                </Col>
+                <Col className="centerImage" xs={4}>
+                    <Image
+                        className="imageSize"
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
             </Row>
-            <div className="cardLayout">
+            <div className="cardText">
                 <p className="pDescription">“A BIG THANK YOU for trusting us and being an important
                     part of our journey.” - Alex Fong</p>
             </div>

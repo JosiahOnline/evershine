@@ -7,7 +7,7 @@ import Iframe from 'react-iframe';
 const Location = () => {
     return (
         <Container className="setPadding locationMap">
-            <Row className="setFlex">
+            <Row className="setRow">
                 <Col>
                     <h3 className="h3Title">Location Map</h3>
                 </Col>
@@ -28,13 +28,13 @@ const Location = () => {
                 </Col>
             </Row>
             <Row className="setRow">
-                <Col className="setCol"><Image className="setThumnail" src={location}/>
+                <Col className="address"><Image className="setIcon" src={location}/>
                     <p className="contactP">90000, Jalan Lintas Sibuga, lintas indsutrial park, 90000 Sandakan, Sabah</p>
                 </Col>
-                <Col className="setCol"><Image className="setThumnail" src={phone}/>
+                <Col className="address"><Image className="setIcon" src={phone}/>
                     <p className="contactP">Phone: +6013-883-0602<br></br>Fax: +6089-xxx-xxx</p>
                 </Col>
-                <Col className="setCol"><Image className="setThumnail" src={mail}/>
+                <Col className="address"><Image className="setIcon" src={mail}/>
                     <p className="contactP">sales-supreme-evershine@gmail.com</p>
                 </Col>
             </Row>
