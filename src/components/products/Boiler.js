@@ -1,10 +1,10 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 
-const Valves = () => {
+const Boiler = () => {
     return (
         <Container className="category">
-            <h4 className="cTitle">Valves</h4>
+            <h4 className="cTitle">Boiler Parts & Intruments</h4>
             <Row className="productList">
                 <Col><Image
                     className="imageItem"
@@ -50,4 +50,4 @@ const Valves = () => {
     );
 }
 
-export default Valves
+export default Boiler

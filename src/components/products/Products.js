@@ -1,6 +1,10 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import Valves from './Valves'
+import Instrumentation from './Instrumentation'
+import Gasket from './Gasket'
+import Alloy from './Alloy'
+import Boiler from './Boiler'
 
 const Products = () => {
     return (
@@ -19,6 +23,10 @@ const Products = () => {
                     this field, here are the services we offered without compromise!</p></Col>
             </Row>
             <Valves />
+            <Instrumentation />
+            <Gasket />
+            <Alloy />
+            <Boiler />
         </Container>
     );
 }
