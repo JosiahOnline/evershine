@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Products from './components/Products';
+import Products from './components/products/Products';
 import Contact from './components/Contact';
 import NoMatch from './components/NoMatch';
 import Services from './components/Services';

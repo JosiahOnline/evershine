@@ -25,7 +25,6 @@ const OurClients = () => {
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-           
                 <Col className="centerImage" xs={4}>
                     <Image
                         className="imageSize"
@@ -44,7 +43,6 @@ const OurClients = () => {
                         src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                         roundedCircle/>
                 </Col>
-           
                 <Col className="centerImage" xs={4}>
                     <Image
                         className="imageSize"

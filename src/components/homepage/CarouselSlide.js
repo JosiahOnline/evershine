@@ -20,7 +20,6 @@ const CarouselSlide = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" src={pic2} alt="Our Services"/>
-
                 <Carousel.Caption>
                     <h3 className="h3Title">Our Services</h3>
                     <p className="pDescription">Through years of skills and experience acquired in
@@ -30,7 +29,6 @@ const CarouselSlide = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" src={pic3} alt="Our Clients"/>
-
                 <Carousel.Caption>
                     <h3 className="h3Title">Our Clients</h3>
                     <p className="pDescription">We are truly grateful to you for choosing us as your

@@ -1,11 +1,10 @@
 html {
     min-height: 100%;
-    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 body {
     height: 100vh;
-    margin: 15% 0;
+    margin: 15% 0 0;
     background-color: #fdfcf7;
     font-family: 'Playfair Display', serif;
 }
@@ -171,13 +170,11 @@ override background image gradient w/ flat color */
 .recruitment {
     color: #453a3c;
     background-color: #F5F5F5;
-    margin-top: 5px;
-    padding: 10px 0;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 5px 0;
 }
 
 .recruitment a {
@@ -323,3 +320,52 @@ override background image gradient w/ flat color */
     margin-left: 0;
 }
 
+/* These css for Products & Services Page ONLY  */
+.h2Title {
+  font-size: 2.8em;
+  color: #fdfcf7;
+  position: absolute;
+  top: 33.33%;
+  left: 10%;
+  right: 10%;
+}
+.title1, .parag1 {
+  padding: 0.5rem 1rem;
+}
+.title1 {
+  margin-top: 10px;
+}
+.parag1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+}
+
+/* Products Page */
+.products {
+  text-align: center;
+  margin-top: 50px;
+}
+.products .setRow {
+  margin: 0;
+}
+.products .col {
+  padding: 0;
+}
+
+.productList {
+  width: 100%;
+  padding: 0.5rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.productList .col {
+  flex: 0 0 auto;
+  margin-right: 0.5rem;
+  max-width: 30%;
+}
+.imageItem {
+  width: 100px;
+  height: 100px;
+}
