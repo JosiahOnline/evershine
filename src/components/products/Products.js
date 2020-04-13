@@ -1,10 +1,14 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
-import Valves from './Valves'
-import Instrumentation from './Instrumentation'
-import Gasket from './Gasket'
-import Alloy from './Alloy'
-import Boiler from './Boiler'
+import Valves from './Valves';
+import Instrumentation from './Instrumentation';
+import Gasket from './Gasket';
+import Alloy from './Alloy';
+import Boiler from './Boiler';
+import Pipes from './Pipes';
+import Tubes from './Tubes';
+import AutoControl from './AutoControl';
+import Hydraulic from './Hydraulic';
 
 const Products = () => {
     return (
@@ -25,8 +29,12 @@ const Products = () => {
             <Valves />
             <Instrumentation />
             <Gasket />
+            <Pipes />
             <Alloy />
             <Boiler />
+            <Tubes />
+            <AutoControl />
+            <Hydraulic />
         </Container>
     );
 }

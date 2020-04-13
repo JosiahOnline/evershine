@@ -349,6 +349,7 @@ override background image gradient w/ flat color */
 .products .setRow {
   margin: 0;
 }
+
 .products .col {
   padding: 0;
 }
@@ -364,12 +365,16 @@ override background image gradient w/ flat color */
 .productList .col {
   flex: 0 0 auto;
   margin-right: 0.5rem;
-  max-width: 30%;
+  max-width: 40%;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   width: 100%;
+}
+
+.productList .col  a {
+  color: #212529;
 }
 .productList h5 {
   font-size: 1em;
@@ -387,7 +392,6 @@ override background image gradient w/ flat color */
   text-align: left;
   align-items: flex-start;
   padding: 0.5rem 1rem 1rem;
-  background-color: white;
   margin-bottom: 1rem;
 }
 

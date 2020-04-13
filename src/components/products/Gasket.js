@@ -6,44 +6,50 @@ const Gasket = () => {
         <Container className="category">
             <h4 className="cTitle">Industrial Gasket & Packings</h4>
             <Row className="productList">
-                <Col><Image
+                <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
                     <h5>Vavles</h5>
+                    </a>
                 </Col>
-                <Col><Image
+                <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
                     <h5>Vavles</h5>
+                    </a>
                 </Col>
-                <Col><Image
+                <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
                     <h5>Vavles</h5>
-                </Col>
-
-                <Col><Image
-                    className="imageItem"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
-                    />
-                    <h5>Vavles</h5>
+                    </a>
                 </Col>
 
-                <Col><Image
+                <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
                     <h5>Vavles</h5>
+                    </a>
                 </Col>
 
-                <Col><Image
+                <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
                     <h5>Vavles</h5>
+                    </a>
+                </Col>
+
+                <Col><a href="./products"><Image
+                    className="imageItem"
+                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
+                    />
+                    <h5>Vavles</h5>
+                    </a>
                 </Col>
             </Row>
         </Container>

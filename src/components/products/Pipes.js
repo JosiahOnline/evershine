@@ -1,38 +1,30 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 
-const Valves = () => {
+const Pipes = () => {
     return (
         <Container className="category">
-            <h4 className="cTitle">Valves</h4>
+            <h4 className="cTitle">Stainless Steel & API Pipes & Fittings</h4>
             <Row className="productList">
                 <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
-                    <h5>Vavles</h5>
+                    <h5>Pipes</h5>
                     </a>
                 </Col>
                 <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
-                    <h5>Vavles</h5>
+                    <h5>Pipes</h5>
                     </a>
                 </Col>
                 <Col><a href="./products"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
-                    <h5>Vavles</h5>
-                    </a>
-                </Col>
-
-                <Col><a href="./products"><Image
-                    className="imageItem"
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
-                    />
-                    <h5>Vavles</h5>
+                    <h5>Pipes</h5>
                     </a>
                 </Col>
 
@@ -40,7 +32,7 @@ const Valves = () => {
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
-                    <h5>Vavles</h5>
+                    <h5>Pipes</h5>
                     </a>
                 </Col>
 
@@ -48,7 +40,15 @@ const Valves = () => {
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />
-                    <h5>Vavles</h5>
+                    <h5>Pipes</h5>
+                    </a>
+                </Col>
+
+                <Col><a href="./products"><Image
+                    className="imageItem"
+                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
+                    />
+                    <h5>Pipes</h5>
                     </a>
                 </Col>
             </Row>
@@ -56,4 +56,4 @@ const Valves = () => {
     );
 }
 
-export default Valves
+export default Pipes
