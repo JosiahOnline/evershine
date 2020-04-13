@@ -12,8 +12,8 @@ const OurCompany = () => {
                 <Col className="pDescription extraBorder">Efficiecy</Col>
                 <Col className="pDescription">Innovative</Col>
               </Row>
-              <div className="cardLayout">
-              <div className="youTube">
+              <div className="cardLayout adjustLayout">
+              <div className="youTube removePadding">
                 <div
                     style={{
                     width: '100%',

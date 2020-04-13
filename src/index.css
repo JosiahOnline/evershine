@@ -79,6 +79,7 @@ code {
   padding: 0.5rem 0 0;
 }
 .cardLayout {
+  width: 100%;
   padding: 1.25rem 0 0;
   background-color: #fff;
   background-clip: border-box;
@@ -86,7 +87,13 @@ code {
   border-radius: .25rem;
   margin-bottom: 10%;
 }
-
+.adjustLayout {
+  padding-top: 0;
+  margin-top: 1rem;
+}
+.removePadding {
+  padding: 0;
+}
 .cardText {
   background-color: #fff;
   background-clip: border-box;
@@ -258,15 +265,6 @@ override background image gradient w/ flat color */
   padding: 0 0.6em;
 }
 
-.ourCompany .cardLayout {
-  padding-top: 0;
-  margin-top: 1.25rem;
-}
-
-.ourCompany .youTube {
-  padding: 0;
-}
-
 /* Location Map  */
 .locationMap {
     padding-bottom: 5%;
@@ -398,4 +396,11 @@ override background image gradient w/ flat color */
 .category .cTitle {
   padding: 0.5rem 1rem 0 5px;
   text-align: left;
+}
+
+.bulletPoint {
+  width: 100%;
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  font-family: 'Raleway', sans-serif;
 }

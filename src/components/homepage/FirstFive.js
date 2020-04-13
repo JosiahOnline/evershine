@@ -57,7 +57,7 @@ const FirstFive = () => {
                     </Card.Body>
                 </Card>
             </CardDeck>
-            <Button className="actionBtn">More Products</Button>
+            <Button className="actionBtn" href='../products/Products.js'>More Products</Button>
         </Container>
     );
 }

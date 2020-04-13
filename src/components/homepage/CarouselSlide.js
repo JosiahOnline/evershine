@@ -6,7 +6,6 @@ import pic2 from '../../pictures/carousel/pic2.jpg'
 import pic3 from '../../pictures/carousel/pic3.jpg'
 
 const CarouselSlide = () => {
-
     return (
         <Carousel>
             <Carousel.Item>
