@@ -67,7 +67,7 @@ const OurClients = () => {
                     part of our journey.” - Alex Fong</p>
             </div>
 
-            <Button className="actionBtn">ENQUIRY</Button>
+            <Button className="actionBtn" href='../contact'>ENQUIRY</Button>
         </Container>
     );
 }

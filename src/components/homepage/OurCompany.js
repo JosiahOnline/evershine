@@ -26,7 +26,7 @@ const OurCompany = () => {
               </div>
               <p className="pDescription">Together we help, we grow and we prosper! Let's work together and make it happen!</p>
             </div>
-            <Button className="actionBtn">ENQUIRY</Button>
+            <Button className="actionBtn" href='../contact'>ENQUIRY</Button>
         </Container>
     );
 }

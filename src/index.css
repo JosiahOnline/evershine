@@ -38,11 +38,11 @@ code {
   border-color: #47AEA0;
 }
 .actionBtn {
-    font-family: 'Roboto', sans-serif;
-    background-color: #47AEA0;
-    border-color: #47AEA0;
-    font-size: 1.3em;
-    width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #47AEA0;
+  border-color: #47AEA0;
+  font-size: 1.3em;
+  width: 100%;
 }
 .cardTitle {
   font-size: 1.5em;
@@ -59,15 +59,15 @@ code {
   text-align: center;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 .setPadding {
-    padding: 20% 7% 10%;
+  padding: 20% 7% 10%;
 }
 .setRow {
   display: flex;
@@ -114,16 +114,16 @@ code {
 
 /* navbar */
 .navbar-brand img {
-    border-radius: 50%;
-    margin-right: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .navbar-toggler {
-    background-color: rgb(131, 8, 8);
-    padding: 1px 6px;
+  background-color: rgb(131, 8, 8);
+  padding: 1px 6px;
 }
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-    color: #f5c5c7;
+  color: #f5c5c7;
 }
 .navbar-light .navbar-nav .active>.nav-link, 
 .navbar-light .navbar-nav .nav-link.active, 
@@ -144,33 +144,33 @@ override background image gradient w/ flat color */
     background-image: linear-gradient(to bottom,#2c4053 0,#2c4053 100%) !important; 
 } */
 .colorNav {
-    background-color: rgb(131, 8, 8);
+  background-color: rgb(131, 8, 8);
 }
 .colorNav .navbar-brand {
-    color: white;
+  color: white;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: rgba(0,0,0,.1);
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+  color: white;
 }
 
 .navbar-nav {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .navContainer {
-    flex-direction: column;
-    justify-content: space-evenly;
-    min-height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 300px;
 }
 .navContainer a {
-    color: white;
-    padding-right: 5px;
+  color: white;
+  padding-right: 5px;
 }
 
 /* Recruitment  */
@@ -398,9 +398,29 @@ override background image gradient w/ flat color */
   text-align: left;
 }
 
+/* Services */
 .bulletPoint {
   width: 100%;
   padding-top: 1rem;
   padding-right: 0.5rem;
   font-family: 'Raleway', sans-serif;
+}
+
+/* Contact Form  */
+.contactForm {
+  background-color: #f5f5f5;
+  text-align: left;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+
+}
+.contactForm form {
+  width: 85%;
+}
+.contactForm .form-label {
+  padding-left: 5px
+}
+.contactForm .form-group {
+  margin-bottom: 2rem;
 }

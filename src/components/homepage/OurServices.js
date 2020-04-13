@@ -46,7 +46,7 @@ const OurServices = () => {
                     “If I had nine hours to chop down a tree, I’d spend the first six sharpening my
                     axe.” <br></br>- Abraham Lincoln</p>
             </div>
-            <Button className="actionBtn">Get Started</Button>
+            <Button className="actionBtn" href='../contact'>Get Started</Button>
         </Container>
     );
 }
