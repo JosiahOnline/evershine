@@ -424,3 +424,39 @@ override background image gradient w/ flat color */
 .contactForm .form-group {
   margin-bottom: 2rem;
 }
+
+/* Not Found Page 404  */
+ .notFound {
+  height: 95vh;
+  background-image: url("https://res.cloudinary.com/trippleninja/image/upload/v1586868487/supreme/pic404.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border-top: 4px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: white;
+  padding-left: 10%;
+} 
+.setBackground {
+  position: absolute;
+  top: 15%;
+  align-items: center;
+}
+.bigTitle {
+  font-size: 10em;
+  margin-bottom: 0;
+  line-height: 0.8;
+}
+
+.bigParah {
+  font-size: 2.6em;
+  margin-bottom: 0;
+}
+
+.backBtn {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  width: 80%;
+  margin-top: 10px;
+}

@@ -10,7 +10,7 @@ import Tubes from './Tubes';
 import AutoControl from './AutoControl';
 import Hydraulic from './Hydraulic';
 
-const Products = () => {
+const Categories = () => {
     return (
         <Container className="products">
             <Row className="setRow">
@@ -39,4 +39,4 @@ const Products = () => {
     );
 }
 
-export default Products;
+export default Categories;

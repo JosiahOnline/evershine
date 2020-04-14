@@ -1,9 +1,9 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Redirect, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Products from './components/products/Products';
+import Products from './components/products/Categories';
 import Contact from './components/Contact';
-import NoMatch from './components/NoMatch';
+import NotFoundPage from './components/NotFoundPage';
 import Services from './components/services/Services';
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/homepage/Footer'
@@ -18,7 +18,8 @@ function App() {
             <Route path="/products" component={Products} />
             <Route path="/services" component={Services} />
             <Route path="/contact" component={Contact} />
-            <Route component={NoMatch}/>
+            <Route path ="/404" component={NotFoundPage}/>
+            <Redirect to="/404"/>
           </Switch>
         </Router>
         <Footer />
