@@ -6,7 +6,7 @@ const Valves = () => {
         <Container className="category">
             <h4 className="cTitle">Valves</h4>
             <Row className="productList">
-                <Col><a href="./products"><Image
+                <Col><a href="../product/1"><Image
                     className="imageItem"
                     src="https://res.cloudinary.com/trippleninja/image/upload/v1586013501/supreme/pic3.jpg"
                     />

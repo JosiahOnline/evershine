@@ -1,9 +1,10 @@
 import React from 'react';
 import { Nav, Navbar} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import supreme from '../pictures/Supreme Logo.png'
 
-const NavigationBar = () => {
+const NavigationBar = (props) => {
+  console.log(props);
   return (
       <Navbar fixed="top" className="colorNav" expand="lg" collapseOnSelect >
         <Navbar.Brand href="/">
@@ -28,4 +29,4 @@ const NavigationBar = () => {
   );
 }
  
-export default NavigationBar;
+export default withRouter(NavigationBar);

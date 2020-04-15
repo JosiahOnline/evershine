@@ -6,7 +6,8 @@ import Contact from './components/Contact';
 import NotFoundPage from './components/NotFoundPage';
 import Services from './components/services/Services';
 import NavigationBar from './components/NavigationBar'
-import Footer from './components/homepage/Footer'
+import Footer from './components/homepage/Footer';
+import ProductDetails from './components/products/Valves/productExample'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/products" component={Products} />
             <Route path="/services" component={Services} />
             <Route path="/contact" component={Contact} />
+            <Route path="/product/:product_id" component={ProductDetails} />
             <Route path ="/404" component={NotFoundPage}/>
             <Redirect to="/404"/>
           </Switch>
