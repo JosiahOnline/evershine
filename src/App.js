@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Redirect, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Products from './components/products/Categories';
+import Products from './components/products/ProductList';
 import Contact from './components/Contact';
 import NotFoundPage from './components/NotFoundPage';
 import Services from './components/services/Services';

@@ -1,42 +1,28 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
-import Valves from './Valves';
-import Instrumentation from './Instrumentation';
-import Gasket from './Gasket';
-import Alloy from './Alloy';
-import Boiler from './Boiler';
-import Pipes from './Pipes';
-import Tubes from './Tubes';
-import AutoControl from './AutoControl';
-import Hydraulic from './Hydraulic';
 
-const Categories = () => {
+const Categories = ({products}) => {
+    const list = products.length ? (
+      (products.map(product => {
+        return (
+          <Col key={product.id}>
+            <a href={product.link}>
+              <Image className="imageItem" src={product.url} />
+              <h5>{product.name}</h5>
+            </a>
+          </Col>
+        )
+    }))
+    ) : (
+      console.log ('No product')
+    )
     return (
-        <Container className="products">
-            <Row className="setRow">
-                <Col>
-                  <h2 className="h2Title">Our Products</h2>
-                  <Image
-                    src="https://res.cloudinary.com/trippleninja/image/upload/v1586013502/supreme/pic4.jpg"
-                    fluid/>
-                </Col>
+        <Container className="category">
+            <Row className="productList">
+               {list}  
             </Row>
-            <Row className="setRow">
-                <Col><h2 className="title1">Wide Range of Products</h2></Col>
-                <Col><p className="parag1">Valves, Sensors, Industrial Gasket & Packings,
-                Boiler Parts & Instruments, and many more.</p></Col>
-            </Row>
-            <Valves />
-            <Instrumentation />
-            <Gasket />
-            <Pipes />
-            <Alloy />
-            <Boiler />
-            <Tubes />
-            <AutoControl />
-            <Hydraulic />
         </Container>
     );
 }
 
-export default Categories;
+export default Categories

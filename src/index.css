@@ -393,11 +393,12 @@ override background image gradient w/ flat color */
   margin-bottom: 1rem;
 }
 
-.category .cTitle {
-  padding: 0.5rem 1rem 0 5px;
-  text-align: left;
+.cTitle {
+  width: 100%;
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
-
 /* Services */
 .bulletPoint {
   width: 100%;
