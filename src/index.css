@@ -50,6 +50,12 @@ code {
 .h4Title {
   font-size: 1.5em;
 }
+.h5Title {
+  font-size: 1.2em;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
 .contactP {
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
@@ -460,4 +466,28 @@ override background image gradient w/ flat color */
   font-family: 'Roboto', sans-serif;
   width: 80%;
   margin-top: 10px;
+}
+
+/* Item Page  */
+.itemContainer {
+  text-align: left;
+  margin-top: 60px;
+  padding: 5% 10%;
+}
+.title2 {
+  padding: 0.5rem;
+  margin-top: 10px;
+}
+.tab-col{
+  margin-top: 1rem;
+  width: 100%;
+}
+.nav-tabs {
+  margin-bottom: 1rem;
+}
+.nav-tabs .nav-link {
+  color: #495057;
+}
+.nav-tabs .nav-link.active {
+  color: #007bff;
 }

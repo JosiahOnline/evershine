@@ -3,7 +3,7 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 import InHouse from './InHouse';
 import OnSite from './OnSite';
 
-const Services = () => {
+const ListOfServices = () => {
   return ( 
     <Container className="products">
             <Row className="setRow">
@@ -25,4 +25,4 @@ const Services = () => {
    );
 }
  
-export default Services;
+export default ListOfServices;

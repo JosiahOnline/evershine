@@ -14,27 +14,27 @@ class Home extends Component {
             {
                 id: 1,
                 title: 'SEW Eurodrive Gear Reducer / Helical Gear',
-                link: '../product/1',
+                link: '../product/Sew Eurodrive Gear Reducer',
                 url: 'https://res.cloudinary.com/trippleninja/image/upload/v1586434802/supreme/products/SEW_Eurodrive.png'
             }, {
                 id: 2,
                 title: 'ROTO Progressive Cavity Pumps',
-                link: '../product/2',
+                link: '../product/ROTO Progressive Cavity Pumps',
                 url: 'https://res.cloudinary.com/trippleninja/image/upload/v1586434801/supreme/products/ROTO.png'
             }, {
                 id: 3,
                 title: 'Motology / Elektrim Electric Motors',
-                link: '../product/3',
+                link: '../product/Motology or Elektrim Electric Motors',
                 url: 'https://res.cloudinary.com/trippleninja/image/upload/v1586434802/supreme/products/Motology.png'
             }, {
                 id: 4,
                 title: 'Refractory Castables',
-                link: '../product/4',
+                link: '../product/Refractory Castables',
                 url: 'https://res.cloudinary.com/trippleninja/image/upload/v1586434837/supreme/products/refractoryCastables.png'
             }, {
                 id: 5,
                 title: 'Main Shaft (In-House)',
-                link: '../product/5',
+                link: '../product/Main Shaft In-House Prouction',
                 url: 'https://res.cloudinary.com/trippleninja/image/upload/v1586431237/supreme/products/mainShaft.png'
             }
         ]

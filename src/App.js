@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Products from './components/products/ProductList';
 import Contact from './components/Contact';
 import NotFoundPage from './components/NotFoundPage';
-import Services from './components/services/Services';
+import Services from './components/services/ListOfServices';
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/homepage/Footer';
 import ProductDetails from './components/products/Valves/productExample'
