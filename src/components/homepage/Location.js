@@ -22,12 +22,12 @@ const Location = () => {
                         tabindex="0"></Iframe>
                 </Col>
             </Row>
-            <Row className="setRow">
+            <Row className="setRow extraMargin">
                 <Col>
                     <h3 className="h3Title">Contact Us</h3>
                 </Col>
             </Row>
-            <Row className="setRow">
+            <Row className="setRow contactHeight">
                 <Col className="address"><Image className="setIcon" src={location}/>
                     <p className="contactP">90000, Jalan Lintas Sibuga, lintas indsutrial park, 90000 Sandakan, Sabah</p>
                 </Col>

@@ -293,12 +293,18 @@ override background image gradient w/ flat color */
     border: 1px solid transparent;
 }
 
+.extraMargin {
+  margin: 1em 0;
+}
+.contactHeight {
+  min-height: 250px; 
+}
 .address {
     display: flex;
     flex-direction: row;
     padding-right: 0;
     padding-left: 5px;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     align-items: center;
     text-align: left;
 }
