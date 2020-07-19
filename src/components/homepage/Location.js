@@ -22,7 +22,7 @@ const Location = () => {
                         tabindex="0"></Iframe>
                 </Col>
             </Row>
-            <Row>
+            <Row className="setRow">
                 <Col>
                     <h3 className="h3Title">Contact Us</h3>
                 </Col>

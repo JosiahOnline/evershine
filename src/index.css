@@ -298,7 +298,7 @@ override background image gradient w/ flat color */
     flex-direction: row;
     padding-right: 0;
     padding-left: 5px;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
     align-items: center;
     text-align: left;
 }
