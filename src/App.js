@@ -7,7 +7,7 @@ import NotFoundPage from './components/NotFoundPage';
 import Services from './components/services/ListOfServices';
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/homepage/Footer';
-import ProductDetails from './components/products/Valves/productExample'
+import ProductDetails from './components/products/productDetails'
 
 function App() {
   return (

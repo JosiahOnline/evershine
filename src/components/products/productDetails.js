@@ -1,8 +1,15 @@
 import React, {Component} from 'react';
 import {Container, Row, Col, Card, Tabs, Tab} from 'react-bootstrap';
-import ContactForm from '../../Form';
+import ContactForm from '../Form';
 
-class Categories extends Component {
+const Details = (props)=> {
+  const {title} = props;
+  return (
+    <p>1{title}</p>
+  )
+}
+
+class productDetails extends Component {
     state = {
         id: null
     }
@@ -16,7 +23,7 @@ class Categories extends Component {
                 <Row className="setRow">
                     <Col>
                         <h2 className="title2">{this.state.id}</h2>
-                    </Col>
+                    </Col><Details />
                     <Col>
                         <Card >
                             <Card.Img
@@ -57,4 +64,4 @@ class Categories extends Component {
     }
 }
 
-export default Categories;
+export default productDetails;

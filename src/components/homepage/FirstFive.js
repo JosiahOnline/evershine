@@ -1,38 +1,27 @@
 import React from 'react';
-import {Card, CardDeck, Container, Button} from 'react-bootstrap';
+import {Card, Button} from 'react-bootstrap';
+// import productDetails from '../products/productDetails';
 
-const FirstFive = ({fiveProducts}) => {
-    const productList = fiveProducts.length
-        ? (fiveProducts.map(product => {
-            return (
-                <Card key={product.id}>
-                    <Card.Img
-                        variant="top"
-                        src={product.url}/>
-                    <Card.Body>
-                        <Card.Title className="cardTitle">{product.title}</Card.Title>
-                        <Button href={product.link}>Details</Button>
-                    </Card.Body>
-                </Card>
-            )
-        }))
-        : (
-            console.log("No products")
-        )
-    return (
-        <Container id="browseProducts" className="setPadding">
-            <h3 className="h3Title">Our Products</h3>
-            <div className="cardText">
-                <p className="pDescription">
-                    Valves, Sensors, Industrial Gasket & Packings, Boiler Parts & Instruments, and
-                    many more. Below is just some of our products.</p>
-            </div>
-            <CardDeck>
-                {productList}
-            </CardDeck>
-            <Button className="actionBtn" href='../products'>More Products</Button>
-        </Container>
-    );
+const FirstFive = ({ id, title, link, image }) => {
+  // const product = () => {
+  //   console.log({title});
+  // }
+    function productInfo(link) {
+      alert(link);
+    }
+  
+  return (
+      <Card key={id}>
+          <Card.Img
+              variant="top"
+              src={image}/>
+          <Card.Body>
+              <Card.Title className="cardTitle">{title}</Card.Title>
+              <Button href={link} onClick={() => productInfo(link)}>Details</Button>
+          </Card.Body>
+      </Card>
+  )
 }
+
 
 export default FirstFive;
